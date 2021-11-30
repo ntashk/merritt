@@ -1,0 +1,300 @@
+/* CSS_Site= Merritt's Job */
+sudo npm install --global surge
+html {
+    background-color:mistyrose;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+    font-size: 110%;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #BAD9D3;
+    border: 2px solid mediumblue;
+}
+
+/* header styles */
+header { 
+    background-color: #F22738;
+    padding: 1em;
+    border-bottom: 2px solid mediumblue;
+}
+header h1 {
+    font-size: 250%;
+    color: #BAD9D3;
+    text-shadow: 2px 2px 1px mediumblue;
+    text-align: center;
+    line-height: 1.25em;
+}
+header h2 {
+    font-size: 180%;
+    color: mediumblue;
+    text-shadow:1px 1px 1px #BAD9D3;
+    text-align: center;
+}
+header img {
+    float: left;
+    padding: 0;
+    max-width: 200px;
+    width: 100%;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+
+/* main styles */
+main h1 {
+    font-size: 200%;
+    margin: 0;
+    padding: .25em;
+    color: mediumblue;
+    text-shadow: 2px 2px 1px #BFAB6F;
+    font-family: Helvetica;
+    text-align: center;
+}
+main h2 {
+    font-size: 150%;
+    margin: 0;
+    padding: .25em;
+    color: mediumblue;
+    font-family: Helvetica;
+    text-align: center;
+}
+main h3 {
+    font-size: 105%;
+}
+main img {
+    min-width: 500px;
+    max-width: 800px;
+}
+main {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+/* text styles */
+.emphatic {
+    font-weight: bold;
+    font-size: 115%;
+}
+
+/* aside */
+aside {
+    position: relative;
+    float: left;
+    width: 30%;
+    border: 2px dashed #F22738;
+    margin: .5em;
+}
+aside #job {
+    position: relative;
+    float: left;
+    width: 60%;
+    border-color: green;
+}
+aside p {
+    line-height: 1.5em;
+    font-size: 105%;
+    margin: 0 .5em 0 .5em;
+    padding-top: 0;
+}
+aside h2 {
+    color: mediumblue;
+    text-shadow: 1px 1px 1px white;
+    font-size: 175%;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+aside h3 {
+    color: mediumblue;
+    font-size: 105%;
+    text-align: center;
+    margin-top: 0;
+    padding-top: .5em;
+    padding-bottom: 0;
+    border-bottom: 1px solid blue;
+}
+aside dl {
+    margin: 0 .5em;
+}
+aside dl dt {
+    list-style: circle;
+    font-weight: bold;
+}
+aside dl dd {
+    line-height: 1.5em;
+}
+
+
+/* section styles */
+section {
+    float: left;
+    font-size: 110%;
+    margin: 0;
+    padding: 0 1em;
+    border: 1px dashed mediumblue;
+}
+section ul {
+    list-style: none;
+}
+section p {
+    text-align: center;
+    line-height: 1.5em;
+}
+section h1 {
+    font-size: 150%;
+    color: mediumblue;
+    text-align: center;
+}
+section h2 {
+    color: mediumblue;
+    text-align: center;
+}
+
+
+/* image styles */
+img {
+    margin-right: 1em;
+    max-width: 250px;
+}
+.left {
+    display: block;
+    width: 45%;
+    float: left;
+}
+.right {
+    display: block;
+    width: 45%;
+    clear: right;
+    border: 2px solid black;
+}
+
+/* footer styles */
+footer {
+    background-color: #F22738;
+    padding: .1em;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+    clear: both;
+    border-top: 2px solid mediumblue;
+}
+footer p {
+    text-align: center;
+    font-size: 80%;
+}
+
+
+/* as yet unused styles */
+/* link styles */
+a:link {
+    color: mediumblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:focus { 
+    font-style: italic;
+}
+a:visited {
+    color: mediumblue;
+}
+
+/* figure styles */
+figure {
+    margin-right: 0;
+    padding-left: 1em;
+    max-width: 300px;
+    float: right;
+}
+figcaption {
+    display: block;
+    max-width: 300px;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+/* div styles */
+.banner {
+    text-align: center;
+    background-image: -webkit-linear-gradient(180deg, mediumblue 0%, #9098d8 25%, #90d2d8 50%, #9098d8 75%, mediumblue 100%);
+    background-image: -moz-linear-gradient(180deg, mediumblue 0%, #9098d8 25%, #90d2d8 50%, #9098d8 75%, mediumblue 100%);
+    background-image: -o-linear-gradient(180deg, mediumblue 0%, #9098d8 25%, #90d2d8 50%, #9098d8 75%, mediumblue 100%);
+}
+.banner h2 {
+    font-size: 200%;
+    margin: 0;
+    padding: .5em;
+    color: mediumblue;
+    font-family: Helvetica;
+
+}
+.banner h3 {
+    font-size: 150%;
+    margin: 0;
+    padding-bottom: .5em;
+    color: mediumblue;
+}
+.spotlight {
+    font-style: italic;
+    font-size: 105%;
+    color: mediumblue;
+    font-weight: bold;
+}
+
+/* navigation menu */
+#nav_menu {
+	clear: left;
+    border-bottom: 2px solid mediumblue;
+    background-color: mediumblue;
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+    margin: 0;
+    padding: 0;
+}
+#nav_menu ul li {
+	float: left;
+	width: 33.3333%;                  
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul li:hover ul {
+	width: 100%;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .5em 0;
+	text-decoration: none;
+	color: #90d2d8;
+    font-weight: normal;
+    font-size: 110%;
+}
+#nav_menu ul li a.current {
+	background-color: #90d2d8;
+    color: mediumblue;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    font-style: italic;
+}
+
